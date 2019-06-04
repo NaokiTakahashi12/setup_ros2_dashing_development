@@ -38,6 +38,8 @@ python3 -m pip install -U \
   pytest-cov \
   pytest-runner \
   setuptools
+echo "export PATH=$PATH:~/.local/bin" >> ~/.bashrc
+source ~/.bashrc
 sudo apt install --no-install-recommends -y \
   libasio-dev \
   libtinyxml2-dev
